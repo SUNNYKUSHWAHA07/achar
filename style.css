@@ -1,0 +1,306 @@
+@font-face {
+    font-family: chacha;
+    src: url(./SharpGrotesk-Black15.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+nav h1{
+    font-family: chacha;
+}
+
+.text-center{
+    font-family: chacha;
+}
+
+#page2{
+    background: radial-gradient(#758711,#262c03) !important;
+    height: 150vh;
+    width: 100%;
+    position: relative;
+    /* background-image: url(./142-png); */
+}
+
+#page2>canvas{
+   
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh
+}
+
+#page3{
+    font-family: chacha;
+}
+
+#roller::-webkit-scrollbar{
+    display: none;
+}
+
+#roll{
+    animation-name: anime;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes anime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: 120vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #262c03;
+   
+  }
+
+
+  
+
+#page6{
+    font-family: chacha;
+}
+
+
+@media (max-width:600px) {
+   #page1{
+    padding-top: 75vh;
+    height: 100vh;
+   } 
+
+   #page2>canvas{
+    position: relative;
+    width: 100vw;
+    height: 100vh
+}
+
+#page3 h1{
+    line-height: 10vh;
+}
+
+#page3 h1:nth-child(2){
+    line-height: 8.5vh;
+    /* background-color: #758711; */
+}
+
+#page3 h1:nth-child(3){
+    line-height: 5vh;
+    /* background-color: #758711; */
+}
+#page3 h1:nth-child(4){
+    line-height: 7vh;
+    /* background-color: #758711; */
+}
+#page3 h1:nth-child(5){
+    line-height: 5vh;
+    /* background-color: #758711; */
+}
+
+#page3{
+    min-height: 60vh;
+}
+
+
+#page4{
+   margin-top: -1px;
+   padding: 0 2vw;
+}
+
+#page4head{
+   padding: 1vw;
+   gap: 0;
+}
+
+#page4head h1:nth-child(1){
+    line-height: 5vh;
+    /* background-color: #758711; */
+}
+
+#page4head h1:nth-child(2){
+    line-height: 7vh;
+    /* background-color: #758711; */
+}
+
+#midh1 h1{
+    line-height: 7.4vh;
+}
+
+#rollimage img{
+    height: 16vh;
+}
+
+#page4h1 h1{
+  font-size: 20vw;
+  line-height: 8vh;
+}
+
+#page5 video{
+  object-fit: cover;
+  object-position: center;
+}
+
+#videoh1{
+    line-height: 6vh;
+    font-size: 11vw;
+    top: 86%;
+}
+
+#container{
+    margin: 0;
+}
+
+#right{
+    margin: 0;
+}
+
+#right video{
+    top: 100%;
+    left: 6%;
+    height: 50vh;
+    
+}
+
+#left{
+    margin: 0;
+    margin-left: 10%;
+}
+
+#left h1{
+    font-size: 13vw;
+}
+
+#right img:nth-child(1){
+    top: 106%;
+    left: 0%;
+    rotate: 20deg;
+    width: 80vw;
+ 
+}
+
+#right img:nth-child(2){
+    top: 80%;
+    left: 7%;
+    /* background-color: #758711; */
+  
+    width: 90vw;
+ 
+}
+#right img:nth-child(3){
+    top: 150%;
+    left: 15%;
+    width:60vw;
+ 
+}
+
+#page5 {
+    height: 100vh;
+}
+
+#videobox{
+    height: 90vh;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 90vh;
+    
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #262c03;
+   
+  }
+
+  #chili4{
+    left: 60vw;
+    top: 110%;
+    /* background-color: red; */
+    width: 60vw;
+  }
+
+  #chili2{
+    left: 120vw;
+    top: 110%;
+    /* background-color: red; */
+    width: 30vw;
+    display: none;
+  }
+
+  #chili3{
+    left: 50%;
+    top: 110%;
+    /* background-color: red; */
+    width: 30vw;
+    /* display: none; */
+  }
+
+  #flower{
+    top: 130%;
+  }
+
+  #toys{
+    flex-direction: column;
+    gap: 1vw;
+  }
+
+  #toy{
+    width: 93vw;
+    
+  }
+
+  #toy img{
+    height: 90vw;
+  }
+
+  #toy h1{
+    font-size: 15vw;
+  }
+
+  #upper6 h1{
+    /* background-color: #758711; */
+    font-size: 18.5vw;
+    line-height: 10vh;
+  }
+  
+  #upper6 p{
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 0;
+  }
+
+  #page7{
+    min-height: 70vh;
+  }
+
+  #page7 h1{
+    line-height: 30vh;
+    /* background-color: #758711; */
+  }
+
+
+
+}
